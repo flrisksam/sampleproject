@@ -1,92 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-05T23:08:03 IST" name="Default suite" finished-at="2022-09-05T23:08:35 IST" duration-ms="32411">
+  <suite started-at="2022-09-06T00:51:07 IST" name="Default suite" finished-at="2022-09-06T00:51:12 IST" duration-ms="5195">
     <groups>
     </groups>
-    <test started-at="2022-09-05T23:08:03 IST" name="Default test" finished-at="2022-09-05T23:08:35 IST" duration-ms="32411">
+    <test started-at="2022-09-06T00:51:07 IST" name="Default test" finished-at="2022-09-06T00:51:12 IST" duration-ms="5195">
       <class name="testRunner.TestNGRunner">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-05T23:07:56 IST" name="beforeSuite" finished-at="2022-09-05T23:08:03 IST" duration-ms="6625" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-06T00:51:00 IST" name="beforeSuite" finished-at="2022-09-06T00:51:07 IST" duration-ms="6615" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-05T23:08:03 IST" name="beforeTest" finished-at="2022-09-05T23:08:03 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-06T00:51:07 IST" name="beforeTest" finished-at="2022-09-06T00:51:07 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-05T23:08:03 IST" name="beforeClass" finished-at="2022-09-05T23:08:03 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-06T00:51:07 IST" name="beforeClass" finished-at="2022-09-06T00:51:07 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-05T23:08:03 IST" name="beforeMethod" finished-at="2022-09-05T23:08:03 IST" duration-ms="27" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=TestNGRunner.verifyValidLogin()[pri:1, instance:testRunner.TestNGRunner@57d7f8ca] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyValidLogin()[pri:1, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-05T23:08:03 IST" name="verifyValidLogin" description="To verify valid user login" finished-at="2022-09-05T23:08:21 IST" duration-ms="18618" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyValidLogin -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-05T23:08:21 IST" name="afterMethod" finished-at="2022-09-05T23:08:21 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyValidLogin status=SUCCESS method=TestNGRunner.verifyValidLogin()[pri:1, instance:testRunner.TestNGRunner@57d7f8ca] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-05T23:08:21 IST" name="beforeMethod" finished-at="2022-09-05T23:08:21 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=TestNGRunner.verifyChromeCPU()[pri:2, instance:testRunner.TestNGRunner@57d7f8ca] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyChromeCPU()[pri:2, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-05T23:08:21 IST" name="verifyChromeCPU" description="To verify Dynamic table Chrome CPU" finished-at="2022-09-05T23:08:23 IST" duration-ms="1960" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyChromeCPU -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-05T23:08:23 IST" name="afterMethod" finished-at="2022-09-05T23:08:23 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyChromeCPU status=SUCCESS method=TestNGRunner.verifyChromeCPU()[pri:2, instance:testRunner.TestNGRunner@57d7f8ca] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="verifyLoadDelay()[pri:3, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-05T23:08:23 IST" name="verifyLoadDelay" description="To verify load delay" finished-at="2022-09-05T23:08:30 IST" duration-ms="6326" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoadDelay -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-05T23:08:23 IST" name="beforeMethod" finished-at="2022-09-05T23:08:23 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=TestNGRunner.verifyLoadDelay()[pri:3, instance:testRunner.TestNGRunner@57d7f8ca] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-05T23:08:30 IST" name="beforeMethod" finished-at="2022-09-05T23:08:30 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-06T00:51:07 IST" name="beforeMethod" finished-at="2022-09-06T00:51:07 IST" duration-ms="22" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -97,125 +30,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-05T23:08:30 IST" name="afterMethod" finished-at="2022-09-05T23:08:30 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyLoadDelay status=SUCCESS method=TestNGRunner.verifyLoadDelay()[pri:3, instance:testRunner.TestNGRunner@57d7f8ca] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="createUser()[pri:4, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-05T23:08:30 IST" name="createUser" description="To verify add users" finished-at="2022-09-05T23:08:33 IST" duration-ms="2931" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[1 expectation failed.
-JSON path firshName doesn't match.
-Expected: a collection containing "Sam 050903"
-  Actual: null
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 1 expectation failed.
-JSON path firshName doesn't match.
-Expected: a collection containing "Sam 050903"
-  Actual: null
-
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
-at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
-at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
-at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:212)
-at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
-at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
-at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
-at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
-at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
-at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
-at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
-at APITestCase.apiTests.createUser(apiTests.java:109)
-at testRunner.TestNGRunner.createUser(TestNGRunner.java:112)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="createUser()[pri:4, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-06T00:51:07 IST" name="createUser" description="To verify add users" finished-at="2022-09-06T00:51:09 IST" duration-ms="2289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-05T23:08:33 IST" name="afterMethod" finished-at="2022-09-05T23:08:33 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-06T00:51:09 IST" name="afterMethod" finished-at="2022-09-06T00:51:09 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=createUser status=FAILURE method=TestNGRunner.createUser()[pri:4, instance:testRunner.TestNGRunner@57d7f8ca] output={null}]]]>
+                <![CDATA[[TestResult name=createUser status=SUCCESS method=TestNGRunner.createUser()[pri:4, instance:testRunner.TestNGRunner@57d7f8ca] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="postPets()[pri:5, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-05T23:08:33 IST" name="postPets" description="To verify add pets" finished-at="2022-09-05T23:08:34 IST" duration-ms="1278" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postPets -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-05T23:08:33 IST" name="beforeMethod" finished-at="2022-09-05T23:08:33 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-06T00:51:09 IST" name="beforeMethod" finished-at="2022-09-06T00:51:09 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -226,18 +56,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-05T23:08:34 IST" name="afterMethod" finished-at="2022-09-05T23:08:34 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=postPets status=SUCCESS method=TestNGRunner.postPets()[pri:5, instance:testRunner.TestNGRunner@57d7f8ca] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="postPets()[pri:5, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-06T00:51:09 IST" name="postPets" description="To verify add pets" finished-at="2022-09-06T00:51:11 IST" duration-ms="1628" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-05T23:08:34 IST" name="beforeMethod" finished-at="2022-09-05T23:08:34 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- postPets -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-06T00:51:11 IST" name="beforeMethod" finished-at="2022-09-06T00:51:11 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -248,11 +71,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="purchasePet()[pri:6, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-05T23:08:34 IST" name="purchasePet" description="To verify purchase pet" finished-at="2022-09-05T23:08:35 IST" duration-ms="1237" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-06T00:51:11 IST" name="afterMethod" finished-at="2022-09-06T00:51:11 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=postPets status=SUCCESS method=TestNGRunner.postPets()[pri:5, instance:testRunner.TestNGRunner@57d7f8ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="purchasePet()[pri:6, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-06T00:51:11 IST" name="purchasePet" description="To verify purchase pet" finished-at="2022-09-06T00:51:12 IST" duration-ms="1221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- purchasePet -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-05T23:08:35 IST" name="afterMethod" finished-at="2022-09-05T23:08:35 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-06T00:51:12 IST" name="afterMethod" finished-at="2022-09-06T00:51:12 IST" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -263,15 +97,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-05T23:08:35 IST" name="afterClass" finished-at="2022-09-05T23:08:35 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-06T00:51:12 IST" name="afterClass" finished-at="2022-09-06T00:51:12 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-05T23:08:35 IST" name="afterTest" finished-at="2022-09-05T23:08:35 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-06T00:51:12 IST" name="afterTest" finished-at="2022-09-06T00:51:12 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-05T23:08:35 IST" name="afterSuite" finished-at="2022-09-05T23:08:35 IST" duration-ms="236" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testRunner.TestNGRunner@57d7f8ca]" started-at="2022-09-06T00:51:12 IST" name="afterSuite" finished-at="2022-09-06T00:51:12 IST" duration-ms="139" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
