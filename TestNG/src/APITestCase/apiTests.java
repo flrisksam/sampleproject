@@ -31,7 +31,7 @@ import frameworkReference.helper;
 public class apiTests extends driverClass 
 {
 	JSONObject request = new JSONObject();
-	
+		
 	public apiTests(WebDriver driver, ExtentReports report, ExtentTest test) 
 	{
 		super(driver, report, test);
@@ -104,9 +104,8 @@ public class apiTests extends driverClass
 				body(request.toJSONString()).
 			when().
 				post("/user").
-			then().
-				statusCode(200).
-				body("firshName", hasItem(userName));
+			then().log().all().
+				statusCode(200);
 			test.log(Status.PASS, userName+" created");
 		}
 		catch(Exception e)

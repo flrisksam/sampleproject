@@ -1,2 +1,2 @@
-ChromeDriverPath = C:\\Workspace\\TestNG\\Driver\\chromedriver.exe
+ChromeDriverPath = C:\\Workspace\\gitRepo\\TestNG\\Driver\\chromedriver.exe
 URL = http://www.uitestingplayground.com/
