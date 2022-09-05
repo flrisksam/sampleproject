@@ -109,7 +109,7 @@ public class TestNGRunner
   {
 	  try 
 	  {
-		apitests.createUser("Sam_0509202202");
+		apitests.createUser("Sam_05092022_102");
 		test.log(Status.PASS, "Create user success");
 	  }
 	  catch(Exception e)
@@ -124,7 +124,7 @@ public class TestNGRunner
   {
 	  try 
 	  {
-		apitests.postPets(101, 1, "Cat", "Black cats", "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?cs=srgb&dl=pexels-pixabay-45201.jpg&fm=jpg", 0, "Internal", "available");
+		apitests.postPets(102, 1, "Cat", "Black cats", "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?cs=srgb&dl=pexels-pixabay-45201.jpg&fm=jpg", 0, "Internal", "available");
 		test.log(Status.PASS, "Pet created success");
 	  }
 	  catch(Exception e)
@@ -139,7 +139,7 @@ public class TestNGRunner
   {
 	  try 
 	  {
-		apitests.purchasePet(101);
+		apitests.purchasePet(102);
 		test.log(Status.PASS, "Pet purchased");
 	  }
 	  catch(Exception e)
